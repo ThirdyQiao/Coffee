@@ -1,0 +1,137 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato", "san serif";
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 20;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-gradient {
+    position: absolute;
+    z-index: 10;
+    inset: 0;
+    background: linear-gradient(to bottom, rgb(241, 223, 199), transparent)
+}
+
+.format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-theme {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.info {
+    align-items: center;
+}
+
+.btn {
+    margin-left: 20px ;
+    letter-spacing: 1px;
+    font-family: "lato", "san serif";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    background-color: #8f755f;
+    border: 1px solid burlywood;
+    border-radius: 9999px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.coffee-design {
+    position: relative;
+
+}
+
+.coffee-video {
+    position: absolute;
+    width: 100%;
+    top: -118px;
+    height: 480px;
+}
+
+.video-size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slogan-size {
+    color: white;
+
+    position: relative;
+    z-index: 10;
+}
+
+.div-slogan {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan-brown {
+    color: #8f755f;
+}
+
+.slogan-second {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.slogan-btn {
+    background-color: #8f755f;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid #b49072;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: "lato", "san serif";
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (min-width:740px){
+    .sm\:60px-text{
+        font-size: 60px;
+    }
+    .sm\:30px-text{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px){
+    .md\:h-1080px{
+        height: 1080px;
+    }
+}
