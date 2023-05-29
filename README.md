@@ -1,4 +1,4 @@
-# Coffee
+# Coffee Shop Web Design Idea
 Nav and Hero Only
 Responsive Design
 Sematic HTML
